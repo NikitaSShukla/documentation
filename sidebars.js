@@ -269,6 +269,31 @@ const sidebars =
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'Nikita Shukla',
+          link: 
+          {
+            type: 'doc',
+            id: 'projects/Nikita Shukla/about-nikita',
+          },
+          items: 
+          [
+            {
+              type: 'category',
+              label: 'components',
+              link:
+              {
+                type: 'doc',
+                id: 'projects/Nikita Shukla/components/about-intro',
+              },
+              items: 
+              [
+                  'projects/Nikita Shukla/components/about-sidebar',
+              ],
+            },
+          ],
+        },
       ],
     },
     {
@@ -284,7 +309,7 @@ const sidebars =
       collapsed: true,
       items: 
       [
-        {
+        { 
           type: 'category',
           label: 'Workflows',
           link: 
